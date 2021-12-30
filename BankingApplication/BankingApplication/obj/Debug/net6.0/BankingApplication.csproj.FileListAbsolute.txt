@@ -28,3 +28,18 @@ F:\BankingApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\Ban
 F:\BankingApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\ref\BankingApplication.dll
 F:\BankingApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.pdb
 F:\BankingApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.genruntimeconfig.cache
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.exe
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.deps.json
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.runtimeconfig.json
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.dll
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\bin\Debug\net6.0\ref\BankingApplication.dll
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.pdb
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.csproj.AssemblyReference.cache
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.AssemblyInfoInputs.cache
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.AssemblyInfo.cs
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.csproj.CoreCompileInputs.cache
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.dll
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\ref\BankingApplication.dll
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.pdb
+C:\Users\Kandarp Patel\Documents\GitHub\BankApplicationConsoleApplication\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.genruntimeconfig.cache

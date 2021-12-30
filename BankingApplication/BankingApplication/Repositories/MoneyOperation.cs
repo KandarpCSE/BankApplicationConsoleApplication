@@ -3,35 +3,15 @@ using BankingApplication.Models;
 
 namespace BankingApplication.Repositories
 {
-    public  class MoneyOperation : CollectionStorageBase,IMoneyOperation
+    public class MoneyOperation : CollectionStorageBase, IMoneyOperation
     {
         public void Credit()
         {
             var accountNumber = 0;
             var amount = 0;
             Guid customerId;
-            Console.WriteLine("Enter CustomerId :-");
-            var customerIdStr = Console.ReadLine();
-            while(!(Guid.TryParse(customerIdStr, out customerId)))
-            {
-                Console.WriteLine("Please Enter CustomerId in Correct manner");
-                customerIdStr = Console.ReadLine();
-            }
-            Console.WriteLine("Enter AccountNumber :-");
-            var accountNumberStr = Console.ReadLine();
-            while (!(int.TryParse(accountNumberStr, out accountNumber)))
-            {
-                Console.WriteLine("Please Enter Account Number In Correct Manner");
-                accountNumberStr = Console.ReadLine();
-            }
 
-            Console.WriteLine("Enter amount to be Deposited");
-            var amountStr = Console.ReadLine();
-            while (!(int.TryParse(amountStr, out amount)))
-            {
-                Console.WriteLine("Please enter amount In numbers");
-                amountStr = Console.ReadLine();
-            }
+            TakeInput(out customerId, out accountNumber, out amount);
 
             //amount filtering should be multiple of 100 and less than 50k per transaction
             if (amount % 100 == 0)
@@ -87,28 +67,7 @@ namespace BankingApplication.Repositories
             var accountNumber = 0;
             var amount = 0;
             Guid customerId;
-            Console.WriteLine("Enter CustomerId :-");
-            var customerIdStr = Console.ReadLine();
-            while (!(Guid.TryParse(customerIdStr, out customerId)))
-            {
-                Console.WriteLine("Please Enter CustomerId in Correct manner");
-                customerIdStr = Console.ReadLine();
-            }
-            Console.WriteLine("Enter AccountNumber :-");
-            var accountNumberStr = Console.ReadLine();
-            while (!(int.TryParse(accountNumberStr, out accountNumber)))
-            {
-                Console.WriteLine("Please Enter Account Number In Correct Manner");
-                accountNumberStr = Console.ReadLine();
-            }
-
-            Console.WriteLine("Enter amount to be withdraw");
-            var amountStr = Console.ReadLine();
-            while (!(int.TryParse(amountStr, out amount)))
-            {
-                Console.WriteLine("Please enter amount In numbers");
-                amountStr = Console.ReadLine();
-            }
+            TakeInput(out customerId, out accountNumber, out amount);
             //amount filtering should be multiple of 100 and less than 50k per transaction
             if (amount % 100 == 0)
             {
@@ -182,6 +141,35 @@ namespace BankingApplication.Repositories
                 Console.WriteLine("Please enter Amount in Multiple Of 100");
                 return;
             }
+        }
+
+
+        public static void TakeInput(out Guid Id,out int AC_Number,out int amount_value)
+        {
+            Console.WriteLine("Enter CustomerId :-");
+            var customerIdStr = Console.ReadLine();
+            while (!(Guid.TryParse(customerIdStr, out Id)))
+            {
+                Console.WriteLine("Please Enter CustomerId in Correct manner");
+                customerIdStr = Console.ReadLine();
+            }
+            Console.WriteLine("Enter AccountNumber :-");
+            var accountNumberStr = Console.ReadLine();
+            while (!(int.TryParse(accountNumberStr, out AC_Number)))
+            {
+                Console.WriteLine("Please Enter Account Number In Correct Manner");
+                accountNumberStr = Console.ReadLine();
+            }
+
+            Console.WriteLine("Enter amount to be withdraw");
+            var amountStr = Console.ReadLine();
+            while (!(int.TryParse(amountStr, out amount_value)))
+            {
+                Console.WriteLine("Please enter amount In numbers");
+                amountStr = Console.ReadLine();
+            }
+
+
         }
     }
 }

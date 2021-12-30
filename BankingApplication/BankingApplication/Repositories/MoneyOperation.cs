@@ -56,7 +56,6 @@ namespace BankingApplication.Repositories
                         AccountDetails.TransactionList.Add(new Transaction()
                         {
                             TransactionId = Guid.NewGuid(),
-                            AccountNumber = accountNumber,
                             AmountTransfer = amount,
                             TransactionType = TransactionType.credit,
                             TransactionTime = DateTime.Now
@@ -146,7 +145,6 @@ namespace BankingApplication.Repositories
                                 AccountDetails.TransactionList.Add(new Transaction()
                                 {
                                     TransactionId = Guid.NewGuid(),
-                                    AccountNumber = accountNumber,
                                     AmountTransfer = amount,
                                     TransactionType = TransactionType.Debit,
                                     TransactionTime = DateTime.Now

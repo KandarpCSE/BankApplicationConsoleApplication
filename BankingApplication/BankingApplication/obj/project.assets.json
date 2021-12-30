@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kandarp\\TestFolder\\BankingApplication\\BankingApplication\\BankingApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Kandarp Patel\\Documents\\GitHub\\BankApplicationConsoleApplication\\BankingApplication\\BankingApplication\\BankingApplication.csproj",
       "projectName": "BankingApplication",
-      "projectPath": "D:\\Kandarp\\TestFolder\\BankingApplication\\BankingApplication\\BankingApplication.csproj",
+      "projectPath": "C:\\Users\\Kandarp Patel\\Documents\\GitHub\\BankApplicationConsoleApplication\\BankingApplication\\BankingApplication\\BankingApplication.csproj",
       "packagesPath": "C:\\Users\\Kandarp Patel\\.nuget\\packages\\",
-      "outputPath": "D:\\Kandarp\\TestFolder\\BankingApplication\\BankingApplication\\obj\\",
+      "outputPath": "C:\\Users\\Kandarp Patel\\Documents\\GitHub\\BankApplicationConsoleApplication\\BankingApplication\\BankingApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kandarp Patel\\AppData\\Roaming\\NuGet\\NuGet.Config",
